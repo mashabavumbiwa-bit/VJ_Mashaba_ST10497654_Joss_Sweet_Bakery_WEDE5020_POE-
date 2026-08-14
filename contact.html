@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Order - Joss Sweet Crumbs Bakery</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Joss Sweet Crumbs Bakery</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products & Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact & Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-details">
+            <h2>Find Us in Soweto</h2>
+            
+            <article class="store-info">
+                <h3>Store Address</h3>
+                <p>2526 Chiawelo, Chris Hani Road, Soweto, 1818</p>
+                <p><strong>Operating Hours:</strong> Monday – Sunday: 05:00 AM – 22:00 PM</p>
+                <p><strong>Phone:</strong> +27 11 987 6543</p>
+                <p><strong>Email:</strong> info@josssweetcrumbs.co.za</p>
+            </article>
+
+            <article class="map-container">
+                <h3>Store Location Map</h3>
+                <p>[ Google Maps Embed Placeholder: Chris Hani Road, Chiawelo, Soweto ]</p>
+            </article>
+        </section>
+
+        <section id="enquiry-form" class="enquiry-form-container">
+            <h2>Custom Order & Catering Enquiry</h2>
+            <p>Planning an event or need a custom birthday cake? Complete the form below to receive a quotation.</p>
+
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="order-type">Service Required:</label>
+                <select id="order-type" name="order-type">
+                    <option value="custom-cake">Custom Birthday / Event Cake</option>
+                    <option value="event-catering">Scones, Muffins & Cupcake Platters</option>
+                    <option value="bulk-bread">Bulk Bread Supply</option>
+                </select>
+
+                <label for="event-date">Date Needed:</label>
+                <input type="date" id="event-date" name="event-date" required>
+
+                <label for="details">Order Details / Design Notes:</label>
+                <textarea id="details" name="details" rows="5" required></textarea>
+
+                <button type="submit">Submit Enquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Joss Sweet Crumbs Bakery. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
